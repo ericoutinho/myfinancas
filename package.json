@@ -1,0 +1,25 @@
+{
+  "name": "myfinancas",
+  "version": "1.0.0",
+  "description": "app de finanças simples",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericoutinho/myfinancas.git"
+  },
+  "author": "Eric Coutinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericoutinho/myfinancas/issues"
+  },
+  "homepage": "https://github.com/ericoutinho/myfinancas#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.1"
+  }
+}
